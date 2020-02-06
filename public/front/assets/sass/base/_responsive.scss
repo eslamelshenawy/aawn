@@ -1,0 +1,328 @@
+@media (max-width: 991px) {
+  .main-dashboard {
+    .awn-car__body {
+      flex-direction: column;
+    }
+
+    .main-dashboard__content {
+      .navbar-nav {
+        flex-direction: row;
+        margin-bottom: 20px;
+        justify-content: space-evenly !important;
+        hr {
+          display: none;
+        }
+        .nav-item {
+          padding: 5px 10px;
+          .nav-link {
+            text-align: center;
+            font-size: 14px;
+            .material-icons {
+              margin-right: 0;
+            }
+          }
+        }
+      }
+    }
+    .row > .col-3 {
+      width: 100% !important;
+      max-width: 100% !important;
+      flex: 0 0 100% !important;
+    }
+  }
+}
+
+// tablet screens
+@media (max-width: 768px) {
+  .header {
+    .top-header {
+      display: none;
+    }
+    .main-header {
+      .navbar-nav-lg {
+        display: none;
+      }
+      .navbar-nav-md {
+        display: flex;
+        flex-direction: row;
+      }
+      .navbar-collapse-sm {
+        opacity: 1;
+      }
+      .mobile-menu {
+        display: block;
+        margin-right: 15px;
+      }
+      .search-header {
+        display: block;
+      }
+    }
+  }
+  .instructions {
+    margin-top: 30px;
+    .awn-card {
+      margin: 10px;
+    }
+    .row {
+      justify-content: space-evenly !important;
+    }
+  }
+
+  .clients-sec {
+    padding-bottom: 10px !important;
+  }
+  .main-footer {
+    .footer-base {
+      &__copy {
+        text-align: center;
+      }
+      &__social {
+        margin-top: 10px;
+        .social-links {
+          justify-content: center !important;
+        }
+      }
+    }
+  }
+  // utalities ----
+  .awn-card-four {
+    .awn-card__body {
+      .card-item__btns {
+        .btn {
+          padding: 0.285rem 0.5rem;
+          &:first-child {
+            margin-right: 5px;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+  .login-sec .form-account .social-login {
+    flex-direction: column;
+  }
+  .login-sec .social-btn {
+    margin: 5px 0 !important;
+  }
+  .search-inner-header {
+    display: none;
+  }
+  .event-page {
+    .event-slider {
+      .slider-items {
+        height: 350px;
+        .slider-item {
+          img {
+            height: 350px;
+          }
+        }
+      }
+    }
+  }
+  .product-slider .light-box img {
+    width: 80%;
+    max-height: 60%;
+  }
+}
+
+// mobile screens
+@media (max-width: 480px) {
+  .header {
+    .side-header {
+      &__slider {
+        .owl-stage,
+        .owl-stage-outer,
+        .owl-carousel {
+          height: 200px !important;
+        }
+      }
+    }
+  }
+  .instructions {
+    &-item {
+      flex-direction: column;
+      i {
+        margin: 0;
+      }
+      span {
+        text-align: center;
+        margin: 0;
+        margin-top: 10px;
+      }
+    }
+  }
+  .numbers {
+    .numbers-item {
+      padding: 20px 10px !important;
+      &__icon {
+        width: 40px !important;
+        height: 40px !important;
+        i {
+          font-size: 20px !important;
+        }
+      }
+      &__num {
+        font-size: 18px !important;
+      }
+      &__text {
+        font-size: 14px;
+      }
+    }
+  }
+  .goals {
+    .goals-item {
+      margin-bottom: 25px;
+    }
+  }
+
+  .main-footer {
+    &__logo,
+    &__contact {
+      margin-bottom: 20px;
+    }
+  }
+
+  .awn-card {
+    &__body {
+      .card-items-slider .card-item {
+        width: 130px;
+      }
+    }
+    .btn {
+      padding: 0.285rem 0.5rem;
+    }
+  }
+  .main-dashboard {
+    .awn-car__body {
+      flex-direction: column;
+    }
+
+    .main-dashboard__content {
+      .navbar-nav {
+        flex-direction: row;
+        margin-bottom: 20px;
+        hr {
+          display: none;
+        }
+        .nav-item {
+          padding: 5px 10px;
+          .nav-link {
+            text-align: center;
+            font-size: 14px;
+            .material-icons {
+              margin-right: 0;
+            }
+          }
+        }
+      }
+    }
+    .row > .col-3 {
+      width: 100% !important;
+      max-width: 100% !important;
+      flex: 0 0 100% !important;
+    }
+  }
+  .event-page {
+    .event-slider {
+      .slider-items {
+        height: 200px;
+        .slider-item {
+          img {
+            height: 200px;
+          }
+        }
+      }
+    }
+  }
+  .event-title {
+    font-size: 20px;
+    &::before {
+      content: "";
+      height: 25px;
+      transform: translateY(5px);
+    }
+  }
+  .product-slider .light-box img {
+    width: 80%;
+    max-height: 50%;
+  }
+  .product-slider {
+    display: flex;
+    flex-direction: column;
+  }
+  .product-slider .awn-card__side-img {
+    width: 100%;
+  }
+  .awn-card-hor {
+    flex-direction: column;
+  }
+  .awn-card__side-img {
+    min-width: 100%;
+  }
+  .awn-card__side-content {
+    min-width: 100%;
+  }
+  .side-content-title,
+  .side-content-text {
+    text-align: center;
+  }
+  .side-content-data {
+    flex-wrap: wrap;
+  }
+  .side-content-data .data-item {
+  }
+  .single-user .awn-card__body {
+    flex-direction: column;
+    align-items: center;
+
+    .actions {
+      margin-top: 15px;
+    }
+    .user-img {
+      margin-bottom: 15px;
+    }
+    .users .users__list .user {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+  }
+
+  .awn-card__side-img-slider {
+    width: 100% !important;
+    min-width: 100% !important;
+  }
+
+  .main-slider-container {
+    .main-slider {
+      .item {
+        .main-img {
+          min-height: 300px !important;
+          width: 100% !important;
+        }
+      }
+    }
+  }
+  .base-slider-container {
+    .base-slider {
+      .owl-item {
+        // width: 61px  !important;
+      }
+      .item {
+        height: 60px !important;
+        width: 60px !important;
+        .base-img {
+          height: 100% !important;
+          width: 100% !important;
+        }
+      }
+      .active-img {
+        border-top: 3px solid $color-primary;
+        overflow: hidden;
+        display: inline-block;
+        z-index: 999;
+      }
+    }
+  }
+}

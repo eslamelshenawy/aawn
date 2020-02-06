@@ -1,0 +1,18 @@
+.login-sec {
+    .form-account {
+        .social-login {
+            display: flex;
+            justify-content: center;
+
+            .social-btn  {
+                margin: 0 5px;
+            }
+            .social-login-icon img {
+                width: 15px;
+                transform: translateY(-2px);
+            }
+
+
+        }
+    }
+}

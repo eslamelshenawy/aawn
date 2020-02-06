@@ -1,0 +1,251 @@
+/* Arabic CSS Styles  */
+
+/* fonts */
+@font-face {
+  font-family: Cairo;
+  src: url("../fonts/Cairo/Cairo-Regular.ttf");
+  font-weight: normal;
+}
+/* @font-face {
+  font-family: Cairo;
+  src: url("../fonts/Cairo/Cairo-SemiBold.ttf");
+  font-weight: bold;
+} */
+@font-face {
+  font-family: Cairo;
+  src: url("../fonts/Cairo/Cairo-Bold.ttf");
+  font-weight: bold;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Cairo:400,600,700&display=swap&subset=arabic");
+
+html {
+  font-family: "Cairo", sans-serif !important;
+  text-align: right;
+  font-weight: normal;
+  direction: rtl;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+  font-family: "Cairo", sans-serif !important;
+  text-align: right;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold !important;
+}
+p,
+span {
+  font-weight: normal;
+}
+.side-header__slider {
+  direction: ltr;
+}
+.header .side-header__card .nav-link {
+  text-align: right;
+  direction: rtl !important;
+}
+.header .side-header__menu .awn-dorpdown-items .main-menu li {
+  direction: rtl !important;
+  text-align: right;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .side-header__menu .awn-dorpdown-items .main-menu li a {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: max-content !important;
+}
+.header .side-header__menu .awn-dorpdown-items .main-menu li a::after {
+  margin-left: 0 !important;
+  padding-left: 15px !important;
+}
+.header .top-header__contact i {
+  transform: rotate(270deg);
+}
+.header .side-header__menu .awn-dorpdown-items {
+  right: 80% !important;
+}
+.header .side-header__menu .awn-dorpdown-items .main-menu .sub-menu {
+  right: 95% !important;
+}
+.top-header__langauge-ar {
+  opacity: 0.5;
+}
+.owl-carousel {
+  direction: ltr !important;
+}
+.header .side-header__menu .nav-item-dropdown:hover .drop-icon {
+  transform: rotate(90deg) !important;
+}
+
+.header .side-header__menu .awn-dorpdown-items .main-menu li::after {
+  border-bottom: 1.5px solid #5a6075;
+  border-left: 1.5px solid #5a6075;
+  border-right: none;
+  border-top: none;
+}
+.ml-auto {
+  margin-right: auto !important;
+  margin-left: unset !important;
+}
+
+footer {
+  text-align: right;
+}
+.awn-card,
+.card-item__btns {
+  font-family: "Cairo", sans-serif !important;
+  direction: rtl !important;
+}
+.awn-card__body .card-item__btns .btn:first-child {
+  margin-right: 0;
+  margin-left: 10px;
+}
+.main-footer__nums .numbers-items .numbers-item__text {
+  transform: translate(-50px, -22px);
+}
+.main-footer__nums .numbers-items .numbers-item__icon {
+  margin-right: 0;
+  margin-left: 10px;
+}
+.main-footer__contact ul {
+  padding-right: 0;
+  padding-left: 20px;
+}
+.awn-card__Header .card-link::after {
+  transform: rotate(225deg);
+}
+.instructions-item i {
+  margin-right: 0;
+  margin-left: 15px;
+}
+.instructions-item span {
+  margin-right: 0;
+  margin-left: 30px;
+}
+.header .side-header__card .material-icons {
+  margin-right: 0;
+  margin-left: 10px;
+}
+.awn-card .card-list {
+  text-align: right;
+}
+.inner-header .main-header .navbar-nav li:last-child {
+  margin-left: 10px;
+}
+.header .top-header__items {
+  padding: 0 15px !important;
+}
+.title-sec {
+  text-align: right;
+}
+.title-sec .sec-title {
+  margin: 0;
+}
+.breadcrumb-content .breadcrumb-item {
+  padding-right: 0;
+  padding-left: 0.9375rem;
+}
+.breadcrumb-content .breadcrumb-item + .breadcrumb-item::before {
+  transform: rotate(180deg);
+  padding-top: 0;
+}
+.awn-card__side-content {
+  text-align: right;
+}
+.awn-card__side-content .side-content-data .data-item {
+  margin-right: 0;
+  /* margin-left: 20px; */
+}
+.main-content .awn-card-hor .data-item-fav {
+  /* margin-right: auto;
+  margin-left: 0; */
+}
+.btn-fav:hover::after,
+.btn-fav:active::after,
+.btn-fav:focus::after {
+  content: "إضافة الى المفضلة";
+  top: -90%;
+  right: -160% !important;
+}
+.header .main-header .header-btn {
+  padding-left: 20px;
+  padding-right: 10px;
+}
+.inner-header .main-header .header-btn {
+  padding-left: 10px;
+}
+.owl-carousel-clients .owl-nav .owl-prev {
+  float: left;
+}
+.main-dashboard nav .nav-item .nav-link .material-icons {
+  margin-right: 0 ;
+  margin-left: 10px ;
+}
+.header .main-header .dropdown-menu > div { 
+  text-align: center;
+}
+
+.breadcrumb-content .breadcrumb-item + .breadcrumb-item {
+  padding-left: 15px;
+}
+.header .top-header__langauge a {
+  margin-right: 10px;
+}
+
+.main-dashboard__content .card-body.my-5 ,
+.main-dashboard__content .card-body > h5 {
+  text-align: center;
+}
+
+.header .side-header__menu .awn-dorpdown-items .main-menu li a {
+  margin-right: 0;
+  margin-left: 20px;
+}
+.tx-l {
+  text-align: left;
+}
+.new-patch {
+  right: 0px;
+  left: unset;
+}
+
+.main-step-header,
+.main-step p {
+  text-align: center;
+}
+.awn-step {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.new-single-product .data-item-fav {
+  right: unset;
+  left: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 10px;
+}
+.product-details .side-content-title .data-price {
+  margin-left: 0;
+  margin-right: 15px;
+}
+.product-details .data-item-fav {
+  margin-right: 15px !important;
+  margin-left: 0 !important;
+}

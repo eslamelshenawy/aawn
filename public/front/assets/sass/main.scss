@@ -1,0 +1,29 @@
+// owlcarousel/owl.carousel.min.css
+// owlcarousel/owl.theme.default.min.css
+@import "../plugins/owl/assets/owl.carousel.min.css";
+@import "../plugins/owl/assets/owl.theme.default.min.css";
+
+@import "./abstracts/animation";
+@import "./abstracts/variables";
+
+@import "./base/genral";
+
+@import "./base/utilities";
+
+@import "./components/button";
+@import "./components/header";
+@import "./components/footer";
+@import "./components/loader";
+
+@import "./pages/home";
+@import "./pages/account";
+@import "./pages/about";
+@import "./pages/sections";
+@import "./pages/dashboard";
+@import "./pages/event";
+@import "./pages/product";
+@import "./pages/delivery";
+
+@import "./base/responsive";
+
+@import"./new-style";

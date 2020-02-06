@@ -1,0 +1,117 @@
+.about-numbers {
+  .numbers-items {
+    justify-content: space-between;
+    padding: 0 15px;
+
+    .numbers-item {
+      display: flex;
+      flex-direction: column;
+      width: 30%;
+      justify-content: center;
+      align-items: center;
+      padding: 30px 10px;
+      &__icon {
+        width: 80px;
+        height: 60px;
+        border-radius: 100px;
+        background-color: $color-secondary;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+        i {
+          font-size: 24px;
+          color: $color-white;
+        }
+      }
+      &__num {
+        font-size: 22px;
+        font-weight: bold;
+        color: $color-text-primary;
+      }
+      &__text {
+      }
+    }
+  }
+  .numbers-item:nth-child(2) .numbers-item__icon {
+    background-color: $color-blue-light;
+  }
+  .numbers-item:nth-child(3) .numbers-item__icon {
+    background-color: $color-violet-light;
+  }
+}
+
+.website-mangement {
+  margin: 80px 0;
+  .mangement-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    .mangement-img {
+      width: 70px;
+      height: 70px;
+      padding: 5px;
+      border-radius: 50px;
+      background-color: $color-blue-light;
+    }
+    h2 {
+      margin-top: 20px;
+    }
+    p {
+      margin-bottom: 10px;
+    }
+  }
+  .owl-dots {
+    margin-top: 20px !important;
+  }
+}
+
+.contact-page {
+  .awn-card-goals {
+    
+    .awn-card__body {
+      min-height: 462px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  }
+  .contact-social {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    .social-links {
+      margin: 0;
+      display: flex;
+      justify-content: flex-end;
+      &__link {
+        a {
+          img {
+            width: 25px;
+            margin: 0 5px;
+            -webkit-filter: grayscale(100%);
+          }
+        }
+        &:hover img {
+          -webkit-filter: none;
+        }
+      }
+    }
+  }
+  ::-webkit-input-placeholder {
+    font-size: 12px;
+    opacity: 0.6;
+  }
+  
+  ::-ms-input-placeholder {
+    opacity: 0.6;
+    font-size: 12px;
+  }
+  
+  ::placeholder {
+    opacity: 0.6;
+    font-size: 12px;
+  }
+}

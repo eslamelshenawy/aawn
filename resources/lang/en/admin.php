@@ -1,0 +1,292 @@
+<?php
+
+return [
+    /*
+     *
+     *menus start
+     *
+     */
+    'dashboard'             => 'Dashboard',
+    'admins'                => 'Admins',
+    'alladmins'             => 'All Admins',
+    'addadmins'             => 'Add Admins',
+    'users'                 => 'Users',
+    'users'                 => 'User',
+    'allusers'              => 'All Users',
+    'addusers'              => 'Add Users',
+    'settings'              => 'Settings',
+    'countries'             => 'Countries',
+    'allcountries'          => 'All Countries',
+    'addcountries'          => 'Add Countries',
+    'addcountriesc'=>'Add Countries or Cities',
+    'delete selected'             => 'Delete Selected',
+    'blockedIP'             => 'Sorry, your membership has been banned',
+    'blocked'             => 'IP has been banned successfully',
+    'not_blocked'             => 'Sorry IP was not  banned',
+    'sar'             => 'SAR',
+    'related'             => 'Similar products',
+
+    /*
+     *
+     *
+     *menus end
+     *
+     * Dashboard
+     *
+     *
+     *
+     */
+ /*
+     *
+     *sessions
+     */
+    'updated'              =>'Information Updated',
+    'added'                =>'Information Added',
+    'add'                  =>'Add',
+    'create'               =>'Create',
+    'edit'                 =>'Edit',
+    'action'               =>'Action',
+    'ask_to_delete'        =>'Are You sure To delete this ?',
+    'yes'                  =>'Yes',
+    'no'                   =>'No',
+    'delete'               =>'Delete',
+    'save'                 =>'Save',
+    'close'                =>'Close',
+    'deleted'              =>'The Record Is Deleted',
+    'delete_photo'         =>'Are You sure To delete this  Photo ?',
+
+
+
+
+    /*
+     *
+     *settings page
+     */
+    'sitear'               => 'Site Name Arbic',
+    'siteen'               => 'Site Name English',
+    'siteemail'            => 'Site Email',
+    'sitelogo'             => 'Logo',
+    'siteicon'             => 'icon title',
+    'sitedescription'      => 'Description',
+    'sitekeyword'          => 'Keywords',
+    'sitelang'             => 'Defult lang',
+    'sitemesage'           => 'Messages',
+    'sitestatus'           => 'Site Status',
+    /*
+     * end settings page
+     */
+    'daaddSettings'        => 'Add New Settings',
+    'daSettings'           => 'Settings',
+    'daadduser'            => 'Add User',
+    'daalluser'            => 'All User',
+    'daaddadmin'           => 'Add Admin',
+    'daalladmin'           => 'All Admin',
+    'newadmin'             => 'Add New Admin',
+    'home'                 => 'Home Page',
+    /*
+    * login start
+    *
+    */
+    'logout'               => 'Logout',
+    'loginh'               => 'Login to your account',
+    'loginhs'              => 'Your credentials',
+    'emaillogin'           => 'email',
+    'namelogin'            => 'User Name',
+    'passlogin'            => 'password',
+    'remember'             => 'Remember',
+    'forge'                => 'Forgot password ?',
+    'loginsubmit'          => 'Login',
+
+
+    /* countries */
+    'country_name_ar'     =>'Name   ',
+    'country_name_en'     =>'Name In English',
+    'country_mob'         =>'Phone Key',
+    'country_code'        =>'Code "EG , KSA , .."',
+    'country_logo'        =>'Logo',
+    'country_city'        =>'Countries City',
+    'all_city'            =>'All Cities',
+    'city_name_ar'        =>'Name In  ',
+    'city_name_en'        =>'Name In English',
+    'city_mob'            =>'Phone Key',
+    'cities'=>'Cities',
+
+    'similer_product' => 'Related Product',
+
+     /* departments */
+     'image'         => 'image',
+     'categories'         => 'Categories',
+     'depatments'         => 'Departments',
+     'department'         => 'Department',
+     'department_product' => 'Product Departments',
+     'en_name'            => ' Name',
+     'ar_name'            => '  Name',
+     'master_department'  => 'Main Department',
+     'sub_to'             => 'Sub Department',
+     'move_department'    => 'Move Department To',
+     'allcategories'      => 'View Product Categories',
+     'addcategories'      => 'Add Product Category',
+
+  /* products */
+    'en_title'            =>' Title',
+    'ar_content'          =>'  Content',
+    'ar_description'      =>'  Content',
+    'photo_products'      =>'Product Photo',
+    'products'            =>'Products',
+    'photo'               =>'Master Photo',
+    'media'               =>'Gallery Photos',
+    'allproducts'         =>'View Products',
+    'addproducts'         =>'Add Product',
+    'color'               =>'Main Color',
+    'size'                =>'Main Size',
+    'colorx'              =>'Other Colors',
+    'sizex'               =>'Other Sizes',
+    'price'               =>'Price',
+    'count'               =>'Count',
+
+
+
+    //orders
+    'orders'=>'Orders',
+    'order'=>'Order',
+    'name'=>'Username',
+    'order_status_code'=>'Code',
+    'order_details'=>'Order Details',
+    'details'=>'Order Details',
+    'order_placed'=>'Order Done !',
+
+       //contact and about pages
+    'aboutus'=>'About Us Page ',
+    'inbox'=>'Inbox',
+
+//Front End Home Page
+    'shop'=>'Shop',
+    'faq'=>'FAQ',
+    'about'=>'About Us',
+    'contact'=>'Contact Us',
+    'support'=>'Support ',
+    'shop_by_dep'=>'Shop by Department',
+    'search_for'=>'Search For Product',
+    'all_cat'=>'All Categories',
+    'start_buying'=>'Start Buying',
+    'featured'=>'Featured',
+    'on_sale'=>'Most Liked',
+    'top_rated'=>'Top Rated',
+    'wishlist'=>'Wishlist',
+    'add_to_cart'=>'Add To Cart',
+    'in_stock'=>'In Stock',
+    'carousel_tabs'=>'Product Carousel Tabs',
+    'best_seller'=>'Best Sellers',
+    'top_20'=>'Top 10',
+    'product_you_may_like'=>'Recommended Products',
+    'excel_file'=>'Excel Sheet',
+    'excel_photos'=>'Excel Sheet Photos',
+    'latest'=>'Latest Products',
+    'onsale'=>'Onsale Products',
+    'rated' =>'Top Rated Products',
+    'find'=>'Find It Fast',
+    'register'=>'Register as vendor',
+    'customer_care'=>'Customer Care',
+    'track'=>'Track your Order',
+    'wishlist'=>'Wishlist',
+    'customer_service'=>'Customer Service',
+
+    'Offers Ads' => 'Offers Ads',
+    'Needs Ads' => 'Needs Ads',
+    'Ads' => 'Ads',
+    'My Ads' => 'My Ads',
+    'About Us' => 'About Us',
+    'person' => 'Person',
+    'login' => 'Login',
+    'Create Account' => 'Create Account',
+    'add' => 'Add',
+    'Place an AD' => 'Place an AD',
+    'add' => 'Add',
+    'search' => 'Search',
+    'City' => 'City',
+    'arabic' => 'Arabic',
+    'english' => 'English',
+    'search for medical instruments' => 'search for medical instruments',
+    'statistics' => 'Statistics',
+    'members' => 'Members',
+    'visitors' => 'Visitors',
+    'new added medical instruments' => 'New Offers',
+    'Show All' => 'Show All',
+    'see offer' => 'See Offer',
+    'see order' => 'See Order',
+    'new needs medical instruments' => 'New Orders',
+    'Our Goals' => 'Our Goals',
+    'events' => 'Events',
+    'see more' => 'See More',
+    'welcome' => 'Welcome',
+    'Account Setting' => 'Account Setting',
+    'My Favourite' => 'My Favourite',
+    'Add New Add' => 'Add New Add',
+    'Add New Offer' => 'Add New Offer',
+    'Add New Order' => 'Add New Order',
+    'password_false' => 'The old password is wrong',
+    'must_login' => 'You must log in first',
+    'add_favourite' => 'You have successfully added to favorites',
+    'remove_favourite' => 'Deletion of favorites has been successfully completed',
+    'No Saved Products' => 'No Saved Products',
+    'Found something you like? Tap on the heart shaped icon next to the item to add it to your wishlist! All your saved items will appear here.' => 'Found something you like? Tap on the heart shaped icon next to the item to add it to your wishlist! All your saved items will appear here.',
+    'Continue Shopping' => 'Continue Shopping',
+    'Ad Type' => 'Ad Type',
+    'main_dept' => 'Main Departments',
+    'sub_dept' => 'Sub Departments',
+    'search_result' => 'Search Results',
+    'empty_search' => 'Sorry there are no results',
+    'contact_details' => 'Contact info',
+    'title_message' => 'Message Title',
+    'way_message' => 'The way to contact you',
+    'mail_mobile' => 'Email Or Mobile',
+    'content_message' => 'Message Content',
+    'send' => 'Send',
+    'cancel' => 'Cancel',
+    'comment' => 'Comment',
+    'comments' => 'Comments',
+    'make_comment' => 'Add comment',
+    'send_comment' => 'Post Comment',
+    'no_comments' => 'No Comments',
+    'new' => 'New',
+    'number' => 'Number',
+    'profile' => 'Profile',
+    'city' => 'City',
+    'country' => 'Country',
+    'first_order' => 'You cannot order the same order more than once',
+    'self_order' => 'You are the owner of the product, you cannot send an order to yourself',
+    'my_order' => 'My Orders',
+    'other_order' => 'Others Orders',
+    'revision' => 'Under Revision',
+    'accepted' => 'Accepted',
+    'refused' => 'Rejected',
+    'accept' => 'Accept',
+    'refuse' => 'Refuse',
+    'shipp_request' => 'follow up your order',
+    'orders_details' => 'Orders Details',
+    'close' => 'Close',
+    'open' => 'Open',
+    'orders_status' => 'Orders Status',
+    'delivery_status' => 'Delivery Status',
+    'orders_num' => 'Orders Number',
+    'Instructions' =>  'Instructions',
+    'agent_report' =>  'Upload a copy of the medical report after going to an agent',
+    'agent_accept' =>  'Your request has been successfully approved and you can order any free product',
+    'prepare' =>  'Prepare Product',
+    'ship' =>  'Product was received from the shipping company',
+    'done' =>  'The product was shipped',
+    'reject' =>  'The product was delivered',
+    'my_important' =>  'My Interests',
+    'delete_member' =>  'Delete My Member',
+
+    'add Successfully' => 'Your Data added Successfully',
+    'edit Successfully' => 'Your Data Updated Successfully',
+    'delete Successfully' => 'Your Data Deleted Successfully',
+    'sent Successfully' => 'Your message has been sent successfully',
+    'comment Successfully' => 'Your comment has been sent successfully',
+    'request Successfully' => 'Your request has been sent successfully',
+    'accept Successfully' => 'Your request has been accepted successfully',
+    'refuse Successfully' => 'Your request has been refused successfully',
+    'accept_refuse' => 'You can not accept more than one request, except in the case of an increase in the quantity',
+    'must_agent' => 'You must communicate with one of the agents closest to you to extract a medical report that allows you to order free products. After that, the medical report is submitted through the control panel for management approval and in the case of management approval you can request any free product',
+];

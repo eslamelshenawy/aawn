@@ -1,0 +1,202 @@
+.instructions {
+  margin-top: 30px;
+  .awn-card {
+    margin: 10px;
+  }
+  .row {
+    justify-content: space-between;
+  }
+  &-item {
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    i {
+      background-color: $color-violet-light;
+      width: 50px;
+      height: 50px;
+      border-radius: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 15px;
+      img {
+        width: 25px;
+        height: auto;
+      }
+    }
+    span {
+      margin-right: 30px;
+    }
+  }
+  &-item:nth-child(2) i {
+    background-color: $color-blue-light;
+  }
+  &-item:nth-child(3) i {
+    background-color: $color-green-light;
+  }
+  &-item:nth-child(4) i {
+    background-color: $color-secondary;
+  }
+}
+// .numbers {
+//   .numbers-items {
+//     justify-content: space-between;
+//     padding: 0 15px;
+
+//     .numbers-item {
+//       display: flex;
+//       flex-direction: column;
+//       width: 30%;
+//       justify-content: center;
+//       align-items: center;
+//       padding: 30px 10px;
+//       &__icon {
+//         width: 60px;
+//         height: 60px;
+//         border-radius: 100px;
+//         background-color: $color-secondary;
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+//         margin-bottom: 10px;
+//         i {
+//           font-size: 24px;
+//           color: $color-white;
+//         }
+//       }
+//       &__num {
+//         font-size: 22px;
+//         font-weight: bold;
+//         color: $color-text-primary;
+//       }
+//       &__text {
+//       }
+//     }
+//   }
+//   .numbers-item:nth-child(2) .numbers-item__icon {
+//     background-color: $color-blue-light;
+//   }
+//   .numbers-item:nth-child(3) .numbers-item__icon {
+//     background-color: $color-violet-light;
+//   }
+// }
+.main-footer__nums {
+  .numbers-items {
+    flex-direction: column;
+    padding: 0 15px;
+    text-align: left;
+
+    .numbers-item {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      &__icon {
+
+        margin-bottom: 15px;
+        margin-right: 10px;
+        i {
+          font-size: 40px;
+          color: $color-secondary;
+        }
+      }
+      &__num {
+        font-size: 22px;
+        font-weight: bold;
+        color: $color-white;
+        position: relative;
+      }
+      &__text {
+        color: $color-white !important;
+        position: absolute;
+        transform: translate(50px,-22px);
+      }
+    }
+  }
+}
+
+.goals {
+  background-color: $color-white;
+  padding: 40px 0;
+  .goals-title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    h3 {
+      text-align: center;
+    }
+  }
+  .goals-items {
+    .goals-item {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      &__icon {
+        width: 60px;
+        margin-bottom: 15px;
+      }
+      &__title {
+        font-size: 18px;
+        font-weight: bold;
+        color: $color-text-primary;
+        margin-bottom: 10px;
+      }
+      &__text {
+        padding: 0 15px;
+      }
+    }
+  }
+}
+.clients-sec {
+  padding: 40px 0;
+  .owl-carousel-clients {
+    .slide-item {
+      width: 70px;
+      height: 70px;
+      margin: 0 auto;
+      .clients-img {
+        text-align: center;
+        -webkit-filter: grayscale(100%);
+        transition: all 0.3s;
+      }
+      &:hover .clients-img {
+        -webkit-filter: none;
+      }
+    }
+  }
+  .owl-nav {
+    transform: translateY(-50px);
+    font-size: 24px;
+    .owl-prev {
+      left: -30px !important;
+    }
+    .owl-next {
+      right: -30px !important;
+      float: right;
+    }
+  }
+}
+.event-sec {
+  background-color: $color-white;
+  padding: 30px 0;
+  .section-header {
+    margin-bottom: 20px;
+  }
+  .card-item__title {
+    // padding: 0;
+  }
+  .awn-card {
+    box-shadow: 0 4px 6px rgba($color-black, 0.2);
+    &__body {
+    background-color: $color-gray-bg !important;
+
+    }
+    .card-item__btns {
+      .btn {
+        width: 100%;
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+      }
+    }
+  }
+}

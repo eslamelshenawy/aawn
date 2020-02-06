@@ -1,0 +1,7 @@
+[04-Oct-2018 15:15:27 UTC] PHP Parse error:  syntax error, unexpected '?' in /home2/highdiscounts/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[04-Oct-2018 15:16:09 UTC] PHP Parse error:  syntax error, unexpected '?' in /home2/highdiscounts/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[04-Oct-2018 15:16:11 UTC] PHP Parse error:  syntax error, unexpected '?' in /home2/highdiscounts/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[04-Oct-2018 15:16:11 UTC] PHP Parse error:  syntax error, unexpected '?' in /home2/highdiscounts/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[04-Oct-2018 15:16:12 UTC] PHP Parse error:  syntax error, unexpected '?' in /home2/highdiscounts/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[04-Oct-2018 15:24:22 UTC] PHP Parse error:  syntax error, unexpected '?' in /home2/highdiscounts/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[01-Nov-2018 11:18:50 UTC] PHP Fatal error:  Cannot use [] for reading in /home2/highdiscounts/public_html/app/Http/Controllers/Api/ProductsApi.php on line 109
